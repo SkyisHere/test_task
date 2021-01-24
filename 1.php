@@ -39,11 +39,7 @@ Class item
                         $res = $con->query($sort);
 						 while( $row = $res->fetch_assoc() ){
 						$name=$row['name'];
-						$status=$row['status'];
-						
-                            echo $name ,PHP_EOL;
-							echo $status,PHP_EOL;
-							
+						$status=$row['status'];	
 						 }
 		
 		
